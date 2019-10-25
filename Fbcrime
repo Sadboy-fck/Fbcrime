@@ -1,14 +1,14 @@
 #!/bin/bash
 
 clear
-sleep 1
-echo "loading cuk :v" |lolcat
-sleep 2
+sleep1
+echo"loading cuk"|lolcat
+sleep2
 clear
-echo "SELAMAT DATANG CUK" |lolcat
-sleep 2
+echo"selamat datang"|lolcat
+sleep2
 clear
-echo "===========================================
+echo"===========================================
 author : SADBOY872
 github : https://github.com/Sadboy-fck
 yTube : INDOHACK
@@ -31,14 +31,14 @@ sleep1
 exit
 }
 
-lagi=1
+lagi=3
 while[$lagi-lt3];
 do
 echo""
 echo""
 echo"1.hack fb"|lolcat
 echo"-------------------------------"|lolcat
-echo"2.hack cctv live"|lolcat
+echo"2.camera cctv live"|lolcat
 echo"-------------------------------"|lolcat
 echo"3.deface"|lolcat
 echo"-------------------------------"|lolcat
@@ -48,8 +48,8 @@ read-p"pilih no:"pill;
 
 case $pill in
 1)clear
-git clone https://github.com/Sadboy-fck/fbcrime
-cd fbcrime
+git clone https://github.com/Sadboy-fck/hackfb
+cd hackfb
 pip2 install mechanize
 python2 force.py
 
