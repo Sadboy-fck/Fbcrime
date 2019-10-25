@@ -32,7 +32,7 @@ exit
 }
 
 lagi=1
-while[$lagi-it3];
+while[$lagi-lt3];
 do
 echo""
 echo""
