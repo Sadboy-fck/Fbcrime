@@ -2,7 +2,7 @@
 
 clear
 sleep 1
-echo "loading cuk :v"| lolcat
+echo "loading cuk :v"|lolcat
 sleep 2
 clear
 echo "SELAMAT DATANG CUK"|lolcat
@@ -10,7 +10,7 @@ sleep 2
 clear
 echo "===========================================
 author : SADBOY872
-github : https://github.com/sadboy872
+github : https://github.com/Sadboy-fck
 yTube : INDOHACK
 ==============================================="
 
@@ -35,7 +35,7 @@ lagi=1
 while [$lagi-it3];
 do
 echo""
-echo"1.hack fb" |lolcat
+echo"1.hack fb"|lolcat
 echo"-------------------------------"|lolcat
 echo"2.hack cctv live"|lolcat
 echo"-------------------------------"|lolcat
@@ -47,7 +47,7 @@ read -p "pilih no:" pill;
 
 case $pill in
 1)clear
-git clone https://github.com/sadboy872/fbcrime
+git clone https://github.com/Sadboy-fck/fbcrime
 cd fbcrime
 pip2 install mechanize
 python2 force.py
@@ -55,14 +55,14 @@ python2 force.py
 ;;
 
 2)clear
-git clone https://github.com/sadboy872/camera
+git clone https://github.com/Sadboy-fck/camera
 cd camera
 sh camera.sh
 
 ;;
 
 3)clear
-git clone https://github.com/sadboy872/deface
+git clone https://github.com/Sadboy-fck/deface
 cd deface
 sh tebas.sh
 
