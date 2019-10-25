@@ -15,35 +15,36 @@ yTube : INDOHACK
 ==============================================="
 
 ############################################################
-#CTRL + C
+#CTRL+C
 ############################################################
 trap ctrl_c INT
 ctrl_c(){
 clear
-echo "[#] detected ctrl+c exit cuk"
-echo "[#] JANGAN SALAH GUNAKAN TOLLS INI"
+echo"[#]detected ctrl+c exit cuk"
+echo"[#]JANGAN SALAH GUNAKAN TOLLS INI"
 sleep1
 echo""
-echo"[#] SADBOY872"
+echo"[#]SADBOY872"
 
-echo "thxz"
-sleep 1
+echo"thxz"
+sleep1
 exit
 }
 
 lagi=1
-while [$lagi-it3];
+while[$lagi-it3];
 do
 echo""
-echo"1.hack fb"| lolcat
-echo"-------------------------------" |lolcat
-echo"2.hack cctv live" |lolcat
-echo"-------------------------------" |lolcat
-echo"3.deface" |lolcat
-echo"-------------------------------" |lolcat
-echo"00.exit" |lolcat
 echo""
-read -p "pilih no:" pill;
+echo"1.hack fb"|lolcat
+echo"-------------------------------"|lolcat
+echo"2.hack cctv live"|lolcat
+echo"-------------------------------"|lolcat
+echo"3.deface"|lolcat
+echo"-------------------------------"|lolcat
+echo"00.exit"|lolcat
+echo""
+read-p"pilih no:"pill;
 
 case $pill in
 1)clear
@@ -69,8 +70,8 @@ sh tebas.sh
 ;;
 
 00)clear
-echo "subcribe chanell indohack"
-exit"
+echo"subcribe chanell indohack"
+exit
 ;;
 
 esac
