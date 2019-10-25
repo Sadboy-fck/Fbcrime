@@ -2,10 +2,10 @@
 
 clear
 sleep 1
-echo "loading cuk :v"| lolcat
+echo "loading cuk :v" |lolcat
 sleep 2
 clear
-echo "SELAMAT DATANG CUK"| lolcat
+echo "SELAMAT DATANG CUK" |lolcat
 sleep 2
 clear
 echo "===========================================
@@ -36,12 +36,12 @@ while [$lagi-it3];
 do
 echo""
 echo"1.hack fb"| lolcat
-echo"-------------------------------"| lolcat
-echo"2.hack cctv live"| lolcat
-echo"-------------------------------"| lolcat
-echo"3.deface"| lolcat
-echo"-------------------------------"| lolcat
-echo"00.exit"| lolcat
+echo"-------------------------------" |lolcat
+echo"2.hack cctv live" |lolcat
+echo"-------------------------------" |lolcat
+echo"3.deface" |lolcat
+echo"-------------------------------" |lolcat
+echo"00.exit" |lolcat
 echo""
 read -p "pilih no:" pill;
 
@@ -70,7 +70,7 @@ sh tebas.sh
 
 00)clear
 echo "subcribe chanell indohack"
-exit
+exit"
 ;;
 
 esac
