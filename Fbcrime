@@ -1,0 +1,81 @@
+#!/bin/bash
+
+clear
+sleep 1
+echo "loading cuk :v"| lolcat
+sleep 2
+clear
+echo "SELAMAT DATANG CUK"|lolcat
+sleep 2
+clear
+echo "===========================================
+author : SADBOY872
+github : https://github.com/sadboy872
+yTube : INDOHACK
+==============================================="
+
+############################################################
+#CTRL + C
+############################################################
+trap ctrl_c INT
+ctrl_c(){
+clear
+echo "[#] detected ctrl+c exit cuk"
+echo "[#] JANGAN SALAH GUNAKAN TOLLS INI"
+sleep1
+echo""
+echo"[#] SADBOY872"
+
+echo "thxz"
+sleep 1
+exit
+}
+
+lagi=1
+while [$lagi-it3];
+do
+echo""
+echo"1.hack fb" |lolcat
+echo"-------------------------------"|lolcat
+echo"2.hack cctv live"|lolcat
+echo"-------------------------------"|lolcat
+echo"3.deface"|lolcat
+echo"-------------------------------"|lolcat
+echo"00.exit"|lolcat
+echo""
+read -p "pilih no:" pill;
+
+case $pill in
+1)clear
+git clone https://github.com/sadboy872/fbcrime
+cd fbcrime
+pip2 install mechanize
+python2 force.py
+
+;;
+
+2)clear
+git clone https://github.com/sadboy872/camera
+cd camera
+sh camera.sh
+
+;;
+
+3)clear
+git clone https://github.com/sadboy872/deface
+cd deface
+sh tebas.sh
+
+;;
+
+00)clear
+echo "subcribe chanell indohack"
+exit
+;;
+
+esac
+done
+done
+
+
+
